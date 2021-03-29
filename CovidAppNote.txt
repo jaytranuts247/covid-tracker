@@ -1,0 +1,3 @@
+https://covidtracking.com/data/api\
+https://www.domo.com/covid19/data/\
+https://covid-api.com/api/}
