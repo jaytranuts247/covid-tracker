@@ -18,6 +18,9 @@ h6 {
 	display: flex;
 	justify-content: space-evenly;
 	padding: 20px;
+	height: 100vh;
+	max-width: 1440px;
+	margin: 0 auto;
 }
 
 .app__header {
@@ -32,6 +35,7 @@ h6 {
 	flex: 0.9;
 	display: flex;
 	flex-direction: column;
+	height: 100%;
 }
 
 .app__stats {
@@ -42,6 +46,7 @@ h6 {
 .app__right {
 	display: flex;
 	flex-direction: column;
+	height: 100%;
 }
 
 .app__right .MuiCardContent-root {
@@ -51,7 +56,7 @@ h6 {
 }
 
 .app__graph {
-	flex-grow: 1;
+	flex: 0 1 300px;
 	margin-top: 20px;
 }
 

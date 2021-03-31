@@ -1,8 +1,14 @@
 .table {
 	margin-top: 20px;
 	overflow: scroll;
-	height: 400px;
+	/* max-height: 50%; */
+	height: 300px;
 	color: #6a5d5d;
+	flex: 1 1 300px;
+}
+
+.table table {
+	width: 100%;
 }
 
 .table tr {
